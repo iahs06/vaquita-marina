@@ -1,34 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería - Vaquita Marina</title>
-    <style>
-        /* Estilos similares a la sección Inicio */
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 20px;
-        }
-        .gallery img {
-            max-width: calc(50% - 10px);
-            height: auto;
-        }
-    </style>
+    <title>Salvemos a la Vaquita Marina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Galería</h1>
-        </header>
-        <section class="gallery">
-            <img src="imagen_galeria_1.jpg" alt="Imagen 1">
-            <img src="imagen_galeria_2.jpg" alt="Imagen 2">
-            <img src="imagen_galeria_3.jpg" alt="Imagen 3">
-            <img src="imagen_galeria_4.jpg" alt="Imagen 4">
+    <header>
+        <h1>Salvemos a la Vaquita Marina</h1>
+        <nav>
+            <a href="inicio.html">Inicio</a>
+            <a href="que-es.html">¿Qué es?</a>
+            <a href="caracteristicas.html">Características</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="vaquita_1.jpg" alt="Vaquita Marina nadando en su hábitat natural">
+                    <figcaption>Vaquita marina nadando en las aguas del Golfo de California.</figcaption>
+                </figure>
+                <figure>
+                    <img src="vaquita_2.jpg" alt="Vaquita Marina madre con su cría">
+                    <figcaption>Una madre vaquita marina cuida de su cría en las aguas poco profundas.</figcaption>
+                </figure>
+                <figure>
+                    <img src="vaquita_3.jpg" alt="Vaquita Marina saltando fuera del agua">
+                    <figcaption>Una vaquita marina realiza un salto acrobático, mostrando su agilidad.</figcaption>
+                </figure>
+                <figure>
+                    <img src="vaquita_4.jpg" alt="Vaquita Marina en peligro de extinción">
+                    <figcaption>La vaquita marina es la marsopa más amenazada del mundo, con una población críticamente reducida.</figcaption>
+                </figure>
+                <figure>
+                    <img src="vaquita_5.jpg" alt="Pescadores ilegales capturando totoaba">
+                    <figcaption>La pesca ilegal de totoaba es la principal amenaza para la supervivencia de la vaquita marina.</figcaption>
+                </figure>
+                <figure>
+                    <img src="vaquita_6.jpg" alt="Esfuerzos de conservación para salvar a la vaquita marina">
+                    <figcaption>Científicos y conservacionistas trabajan incansablemente para proteger a la vaquita marina.</figcaption>
+                </figure>
+            </div>
         </section>
-        <footer>
-            <p>Video relacionado:</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
