@@ -2,19 +2,19 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    background-color: #f4f4f4; /* Fondo gris claro */
-    color: #333; /* Texto gris oscuro */
+    background-color: #e0f7fa; /* Azul claro suave */
+    color: #212121; /* Texto gris oscuro */
 }
 
 header {
-    background-color: #673ab7; /* Morado oscuro */
+    background-color: #03a9f4; /* Azul primario vibrante */
     color: white;
     padding: 1rem 0;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
+h1, h2 {
+    margin: 0.5rem 0; /* Ajusta el margen de los títulos para mejorar la legibilidad */
 }
 
 nav a {
@@ -29,10 +29,14 @@ main {
 
 section {
     margin-bottom: 2rem;
+    background-color: white; /* Fondo blanco para las secciones */
+    padding: 1.5rem;
+    border-radius: 8px; /* Bordes redondeados para suavizar el diseño */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar las secciones */
 }
 
 footer {
-    background-color: #3f51b5; /* Azul oscuro */
+    background-color: #1976d2; /* Azul más oscuro para el pie de página */
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -42,11 +46,17 @@ footer {
 .newspaper-style {
     display: flex;
     align-items: center;
+    flex-direction: column; /* Apilar elementos en vertical en pantallas pequeñas */
 }
 
-.newspaper-style img {
-    max-width: 300px;
-    margin-right: 2rem;
+@media (min-width: 768px) {
+    .newspaper-style {
+        flex-direction: row; /* Volver a diseño horizontal en pantallas más grandes */
+    }
+    .newspaper-style img {
+        max-width: 40%; /* Ajustar el ancho de la imagen en pantallas más grandes */
+        margin: 0 1rem; /* Agregar margen alrededor de la imagen */
+    }
 }
 
 .gallery {
@@ -56,9 +66,15 @@ footer {
 }
 
 .gallery img {
-    width: 300px;
+    width: 280px; /* Ajustar el ancho de las imágenes en la galería */
     margin: 1rem;
     border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para las imágenes de la galería */
+}
+
+.gallery figcaption {
+    text-align: center; /* Centrar texto de descripción */
+    font-style: italic;
 }
 
 form label {
@@ -76,9 +92,11 @@ form textarea {
 }
 
 button {
-    background-color: #9c27b0; /* Morado vibrante */
+    background-color: #673ab7; /* Morado de acento */
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
     cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados para el botón */
 }
+
