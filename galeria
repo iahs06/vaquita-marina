@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Vaquita Marina</title>
+    <style>
+        /* Estilos similares a la sección Inicio */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: calc(50% - 10px);
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Galería</h1>
+        </header>
+        <section class="gallery">
+            <img src="imagen_galeria_1.jpg" alt="Imagen 1">
+            <img src="imagen_galeria_2.jpg" alt="Imagen 2">
+            <img src="imagen_galeria_3.jpg" alt="Imagen 3">
+            <img src="imagen_galeria_4.jpg" alt="Imagen 4">
+        </section>
+        <footer>
+            <p>Video relacionado:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen
