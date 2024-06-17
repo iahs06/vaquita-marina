@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Texto gris oscuro */
+}
+
+header {
+    background-color: #673ab7; /* Morado oscuro */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #3f51b5; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos específicos */
+.newspaper-style {
+    display: flex;
+    align-items: center;
+}
+
+.newspaper-style img {
+    max-width: 300px;
+    margin-right: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 300px;
+    margin: 1rem;
+    border: 1px solid #ddd;
+}
+
+form label {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #9c27b0; /* Morado vibrante */
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+}
