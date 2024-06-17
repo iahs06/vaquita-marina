@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qué es - Vaquita Marina</title>
+    <style>
+        /* Estilos similares a la sección Inicio */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Qué es</h1>
+        </header>
+        <section>
+            <p><img src="imagen_que_es.jpg" alt="Imagen ilustrativa"></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec arcu eu ipsum tristique posuere. Fusce mollis ultricies nisl sit amet gravida.</p>
+        </section>
+        <footer>
+            <p>Video relacionado:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
